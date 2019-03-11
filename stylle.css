@@ -1,0 +1,84 @@
+css
+
+.form-group{
+	
+	whidth:70%;
+	margin:auto;
+}
+h2{
+text-align:center;	
+
+}
+.div1{
+	
+	position:relative;
+	text-align:center;
+	border:solid;
+}
+.div1 span{
+	
+	color:#F26A26;
+}
+.trigger{
+	position:absolute;
+	top:0%;
+	left:0%;
+	z-index:1;
+	width:100%;
+	height:100%;
+
+}
+.Gandalf{
+	
+	position:relative;
+	opacity:0.5;
+	max-width:100%;
+}
+.p1{
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	color:white;
+	font-size:60px;
+	transform:translate(-50%,-50%);
+}
+.p2{
+	
+	position:absolute;
+	top:5%;
+	left:50%;
+	font-size:60px;
+	transform:translate(-50%,-5%);
+	backround:white;
+	opacity:0.7;
+	border-radius:17px;
+	width:80%;
+	border:solid;
+
+}
+.trigger:hover ~ .Gandalf{
+	
+	opacity:1;
+
+}
+.trigger:hover ~ .p1{
+	
+	top:85%;
+	left:50%;
+	font-size:35px;
+	transform:translate(-50%,-50%);
+}
+.trigger:hover ~ .p2{
+	
+	display:none;
+}
+.table1{
+	
+	width:55%;
+}
+.test2{
+	
+	width:80%;
+	margin:auto;
+}
